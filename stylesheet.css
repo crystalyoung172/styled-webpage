@@ -1,0 +1,118 @@
+
+h1 {
+    background-color: transparent;
+    font-style: oblique;
+    text-align: center;
+    text-shadow:
+		-1px -1px 0 white,
+		1px -1px 0 white,
+		-1px 1px 0 white,
+		1px 1px 0 white;
+    font-size: 50px;
+    color: skyblue;
+    background-size: 100%;
+    text-decoration:underline;
+    text-decoration-color: skyblue;
+    float: center;
+    border: 5px solid skyblue; 
+    border-radius: 5px;
+    border-style: inset;
+}
+
+h2 {
+    font-style: oblique;
+    font-size: 40px;
+    color: skyblue;
+    text-shadow:
+		-1px -1px 0 white,
+		1px -1px 0 white,
+		-1px 1px 0 white,
+		1px 1px 0 white;
+    text-decoration: underline;
+    text-align: left;
+    border: 5px solid skyblue; 
+    border-radius: 5px;
+    border-style: inset;
+    
+}
+
+.circular--square {
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+    width: 75%;
+    height: 100%;
+    border-radius: 100%;
+    float: center;
+    left: 20%;
+}
+
+#div2 {
+      width: 400px;
+      padding: 90px;
+      margin: 30px;
+      height: 300px;
+
+}
+
+html, body { 
+    background: url(http://www.sl-designs.com/images/free-backgrounds/quotes-life17.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 1500px;
+}
+
+ #div3 {
+    font-style: oblique;
+    text-shadow:
+		-1px -1px 0 white,
+		1px -1px 0 white,
+		-1px 1px 0 white,
+		1px 1px 0 white;
+    font-size: 30px;
+    position: absolute;
+    color: skyblue;
+    bottom: 20%;
+    float: right;
+    right: 5%;
+    border-collapse: collapse;
+    border: solid 5px skyblue;
+    margin: 2%;
+}
+
+.container {
+    width: 380px;
+    height: 300px;
+    color: skyblue;
+    border: 5px solid skyblue;
+    text-shadow:
+		-1px -1px 0 white,
+		1px -1px 0 white,
+		-1px 1px 0 white,
+        1px 1px 0 white;
+    border-style: inset;
+    border-right: 5%;
+    font-size: 30px;
+    float: middle;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 30px;
+}
+
+video {
+    margin-left: 100%;
+}
+
+
+
+
+
+    
+

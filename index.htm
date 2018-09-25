@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script>
+    function myFunction() {
+      document.getElementById("demo").innerHTML = "Paragraph changed.";
+    }
+  </script>
+  <meta charset="UTF-8">
+  <!--Tab for the website-->
+  <title>Crystal's Styled Webpage</title>
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<div id="div1">
+  <h1>Crystal Young</h1>
+</div>
+
+<!--Background picture of beach and LinkedIn Picture in a circle-->
+
+<body background-image="http://www.sl-designs.com/images/free-backgrounds/quotes-life17.jpg">
+  <div id="div2">
+    <h2>My LinkedIn Picture</h2>
+    <img class="circular--square" src="Linkedln Picture.jpeg" />
+  </div>
+  <div id="div3">
+    <h3>About Me</h3>
+    <p>I live by several mottos: treat your neigbhor<br> like you want to be treated,<br>
+      forgive people because God forgives you,<br>and you can not change anyone but yourself.
+    </p>
+  </div>
+  <!--Table with My Favorite Tv Show, Favorite Movies, and Favorite Music Genres-->
+  <div id="grid">
+    <div class="container">
+      <h4>Favorite tv shows:</h4>
+      <p>The Walking Dead</p>
+      <p>Ilyana, Fix My Life</p>
+      <p>Blackish</p>
+    </div>
+
+    <div class="container">
+      <h4>Favorite Movies:</h4>
+      <p>Colored Purple</p>
+      <p>Love Jones</p>
+      <p>Black Panther</p>
+    </div>
+
+    <div class="container">
+      <h6>Favorite Music Genres:</h6>
+      <p>Jazz</p>
+      <p>R&B</p>
+      <p>80's Rap</p>
+    </div>
+
+    <!--Video on Empowerment-->
+
+
+
+
+
+
+    <!--Footer with My Linkedin Profile and a video-->
+    <div>
+
+      <video width="320" height="240" controls>
+        <source src="1507940147251-drlcss.mp4">
+      </video>
+       <div>
+        Posted by: Crystal Young<br>
+        Linkedin Profile: <a href class="LI-profile-badge" data-version="v1" data-size="medium" data-locale="en_US"
+          data-type="vertical" data-theme="dark" data-vanity="crystal-young-72634666"><a class="LI-simple-link" href='https://www.linkedin.com/in/crystal-young-72634666?trk=profile-badge'>Linkedin</a></div>
+    </div>
+
+    </div>
+     
+  
+
+  <!--Try it Button, Javascript-->
+  <button type="button" onclick="myFunction()">Try it</button>
+  <script>
+    function myFunction() {
+      var txt;
+      if (confirm("Help I Am A Button!")) {
+        txt = "You pressed OK!";
+      } else {
+        txt = "You pressed Cancel!";
+      }
+      document.getElementById("demo").innerHTML = txt;
+    }
+  </script>
+</body>
+
+</html>
